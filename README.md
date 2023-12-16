@@ -14,7 +14,7 @@ The project involves mainly 3 Sub-topics!
 <br>
 <h2>FLOWCHART OF FUNCTIONING:</h2>
 YOUR_VOICE / TEXT(input)---> AI MODEL reponse text ---> LipSyncing+ Voice ---> AI Response with Audio+Face
-<h2>STEP 1: LipSyncing</h2>
+<h2>STEP 1: LipSyncing(LS)</h2>
 I have used freely available png's of a man and depending on the input text. I use METAPHONE library of python to create some level of phonetics
 to change input sentences to meta_word or meta_sentence(in my language). Each character is read and images are consecutively printed with fast speed to 
 see moving mouth.
@@ -40,14 +40,14 @@ AI models now can use this above made model and can have a face with a voice now
 it will produce required output with a voice and a face mouthing it! In future as this project goes you may see ChatGPT or other AI's having a face and voice!
 One of example models made and pushed is Sentiment Analysis AI. 
 
-<br><h2>Extra Perk: Voice to Text</h2>
+<br><h2>Extra Perk: Voice to Text(STT)</h2>
 Just speak to your laptop, with python speech recognition and python speech to text, the converted text will go as STEP-3 procedes!
 
 <h3>-ANIRUDH GUPTA
 <br> 1st semester Project</h3>
 
 -------------------------------------------------------------------------------
- 
+
 <h2> Scope of improvement</h2>
 The audio libraries used are variable and hard to control as it runs independently. Especially during punctuations, the uneven pause breaks the flow, and some words where it takes an exceptionally long time to speak. For example, the prefix 'un', pyttsx3 speaks as unnnnbiased or unnnable, while my images run u-n-a-b-l-e png's. Also since voice and image projection run independently, they tend to deviate sometimes in between due to some words spoken differently compared to meta_word and for long texts, it may go out of sync too.
 This is why I am not able to properly fix it to gpt-3.5-turbo or gpt-4 because the text it produces has good quantity of punctuation. To maintain flow of voice you cannot 
