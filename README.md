@@ -49,7 +49,7 @@ Just speak to your laptop, with python speech recognition and python speech to t
 -------------------------------------------------------------------------------
 
 <h2> Scope of improvement</h2>
-The audio libraries used are variable and hard to control as it runs independently. Especially during punctuations, the uneven pause breaks the flow, and some words where it takes an exceptionally long time to speak. For example, the prefix 'un', pyttsx3 speaks as unnnnbiased or unnnable, while my images run u-n-a-b-l-e png's. Also since voice and image projection run independently, they tend to deviate sometimes in between due to some words spoken differently compared to meta_word and for long texts, it may go out of sync too.
+The audio libraries used are variable and hard to control as it runs independently. Especially during punctuations, the uneven pause breaks the flow, and some words where it takes an exceptionally long time to speak. For example, the prefix 'un', pyttsx3 speaks as unnnnbiased or unnnable, while my images run u-n-a-b-l-e png's.<br> Also since voice and image projection run independently, they tend to deviate sometimes in between due to some words spoken differently compared to meta_word and for long texts, it may go out of sync too.
 This is why I am not able to properly fix it to gpt-3.5-turbo or gpt-4 because the text it produces has good quantity of punctuation. To maintain flow of voice you cannot 
 just remove the punctuation to make it perfect (that it will speak perfectly).
 <br> Whisper AI especially is very hard to use because it has an uneven big long pause((for different lengths of sentences) before it starts outputting any voice, so that is not very promising model to use.
